@@ -1,0 +1,46 @@
+.education {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    background-color: #fdfdfd;
+  }
+  
+  .inputField {
+    margin-bottom: 0.75rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputField label {
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+  }
+  
+  .inputField input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .submitButton,
+  .editButton {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .submitButton:hover,
+  .editButton:hover {
+    background-color: #218838;
+  }
+  
+  .displayInfo p {
+    margin: 0.5rem 0;
+  }
+  
