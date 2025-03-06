@@ -1,0 +1,90 @@
+/* General container */
+.container {
+    max-width: 600px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Headings */
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  h3 {
+    margin-top: 15px;
+    color: #555;
+  }
+  
+  /* Input fields */
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Buttons */
+  button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error messages */
+  .error {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* CV Preview Styling */
+  .cv-preview {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cv-preview p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .cv-preview strong {
+    color: #333;
+  }
+  
+  /* Reset button */
+  .reset-btn {
+    background-color: #ff4d4d;
+  }
+  
+  .reset-btn:hover {
+    background-color: #cc0000;
+  }
+  
